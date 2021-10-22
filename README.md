@@ -7,5 +7,5 @@ This is a simple resuable library containing a central for printing out text thr
 ### Build Instructions
 To add it to your project, simply clone the repository and add the project file to the dotnet reference with:
 ```
-dotnet add {PROJECTDIRECTORY}/{PROJECTNAME.csproj} reference {REPOSITORYPATH}/Writer/Writer.csproj
+dotnet add {PROJECTDIRECTORY}/{PROJECTNAME.csproj} reference {REPOSITORYPATH}/TextUtil/TextUtil.csproj
 ```
