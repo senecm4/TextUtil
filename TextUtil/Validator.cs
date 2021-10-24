@@ -4,8 +4,12 @@ namespace TextUtil
 {
     public class Validator
     {
-        // public int UserInputInt { get; set; }
-        // public bool ValidMenuInput { get; set; }
+        /// <summary>
+        /// Validates input type against expected input
+        /// </summary>
+        /// <param name="userInputInt">The variable containing collected user input</param>
+        /// <param name="validMenuInput">The while loop conditional boolean</param>
+        /// <returns>true if input is valid, -1 if not</returns>
         public int validateINT(int userInputInt, bool validMenuInput)
         {
             try
