@@ -22,10 +22,21 @@ namespace TextUtil
             }
         }
 
-        // public string validateSTRING(string userInputString, bool validMenuInput)
-        // {
-
-        // }
+        public string validateSTRING(string userInputString, bool validMenuInput)
+        {
+            try
+            {
+                userInputString = Convert.ToString(Console.ReadLine());
+                validMenuInput = true;
+                return userInputString;
+            }
+            catch (System.Exception)
+            {
+                Writers.Error.WriteNL("Input Failure!");
+                userInputString = null;
+                return null;
+            }
+        }
     }
 
     public static class Validators
